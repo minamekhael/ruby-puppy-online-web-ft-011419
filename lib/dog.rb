@@ -13,7 +13,7 @@ class Dog
   end
   
   def self.all
-    @@all.each do |name, value|
+    @@all.each do |name|
       puts name
     end
   end
